@@ -19,6 +19,11 @@ function getInfo() {
       },
       {
         type: "input",
+        message: "Are there any required installations to run your project? Please provide so that future developers working on the project may know.",
+        name: "installations"
+      },      
+      {
+        type: "input",
         message: "Enter an explanation of how people are to use the project. How does this benefit them? The purpose.",
         name: "usage"
       },
@@ -42,16 +47,22 @@ function getInfo() {
         message: "Please include the image that is locally stored ![](...). No need to add anything except the file location. '![](...)' is already included.",
         name: "image"
       }
+      {
+        type: "input",
+        message: "Please provide an 'alt text' for the image.",
+        name: "fillername"
+      },
     ])
     // Receives response from questions
     .then(function (response) {
       // Creates the template for the readme
       $template += `## Title\n\n${response.title}\n\n`;      
       $template += `## Description\n\n${response.description}\n\n`;
+      $template += `## Installations\n\n${response.installation}\n\n`;
       $template += `## Usage\n\n${response.usage}\n\n`;
-      $template += `## People\n\n${response.people}\n\n`;
-      $template += `## Questions\n\nQuestions? Reach out to me here:\n\n ### Github: [github.com/${response.username}](https://github.com/${response.username})\n\n ### Email: [${response.email}](mailto:${response.email}?subject=[GitHub])\n\n`;
-      $template += `## Application Image\n\n ![](${response.image})`;
+      $template += `## Credit\n\n${response.people}\n\n`;
+      $template += `## Methods of Contact\n\n ### Github: [github.com/${response.username}](https://github.com/${response.username})\n\n ### Email: [${response.email}](mailto:${response.email}?subject=[GitHub])\n\n`;
+      $template += `## Application Image\n\n ![${response.fillername}](${response.image})`;
       // Writes the created template to README.md file
       fs.writeFile(location, $template, function (err) {
         if (err) {
