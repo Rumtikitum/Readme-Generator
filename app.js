@@ -31,6 +31,11 @@ const getInfo = () => {
       },
       {
         type: "input",
+        message: "How can other users test this code?",
+        name: "test",
+      },
+      {
+        type: "input",
         message: "what is your Github username?",
         name: "username"
       },
