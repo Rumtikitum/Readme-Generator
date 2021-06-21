@@ -10,6 +10,7 @@
 - [Contact](#contact)
 - [Image](#image)
 - [License](#license)
+- [Video-Link](#video-link)
 
 ## Title
 
@@ -36,6 +37,8 @@ I do encourage anyone to go ahead and contribute to this code. I am certain ther
 You will be able to test this application by cloning it and installing npm “inquirer”. You may use most any text editor that can work on JS. Currently I am using VS Code.
 
 ## Contact
+
+Feel free to reach me here for any suggestions or questions in regards to this application.
 
  ### Github: [github.com/Rumtikitum](https://github.com/Rumtikitum)
 
@@ -70,3 +73,5 @@ You will be able to test this application by cloning it and installing npm “in
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
 
+## Link
+https://drive.google.com/file/d/1REp9vrNE844I6RqGbacPDuOEK9c0adWk/view
