@@ -20,7 +20,7 @@
     $template += `## Description\n\n${response.description}\n\n`;
     $template += `## Installation\n\n${response.installations}\n\n`;
     $template += `## Usage\n\n${response.usage}\n\n`;
-    $template += `## Contributing\n\n${response.people}\n\n`;
+    $template += `## Contribute\n\n${response.contribute}\n\n`;
     $template += `## Test\n\n${response.test}\n\n`;
     $template += `## Contact\n\n ### Github: [github.com/${response.username}](https://github.com/${response.username})\n\n ### Email: [${response.email}](mailto:${response.email}?subject=[GitHub])\n\n`;
     $template += `## Image\n\n ![${response.fillername}](${response.image})\n\n`;

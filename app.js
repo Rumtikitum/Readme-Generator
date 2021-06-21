@@ -26,8 +26,8 @@ const getInfo = () => {
       },
       {
         type: "input",
-        message: "Who played a role in making this project? Include yourself and other contributors and partners",
-        name: "people"
+        message: "Would you like others to contribute to this code? If so how?",
+        name: "contribute"
       },
       {
         type: "input",
