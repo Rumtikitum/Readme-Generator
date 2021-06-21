@@ -54,6 +54,17 @@ const getInfo = () => {
         message: "Please provide an 'alt text' for the image.",
         name: "fillername"
       },
+      {
+        type: "checkbox",
+        message: "What License would you like for this project? [Spacebar] to select or deselect. [Enter] to confirm.",
+        choices: ['MIT', 'APACHE', 'GPLv2'],
+        name: "license"
+      },
+      {
+        type: "input",
+        message: "Last but not least, what is your name?",
+        name: "name"
+      },
     ]);
     // Receives response from questions
     //
