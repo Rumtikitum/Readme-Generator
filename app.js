@@ -57,7 +57,7 @@ const getInfo = () => {
       {
         type: "checkbox",
         message: "What License would you like for this project? [Spacebar] to select or deselect. [Enter] to confirm.",
-        choices: ['MIT', 'APACHE', 'GPLv2'],
+        choices: ['MIT', 'APACHE', 'GPLv3'],
         name: "license"
       },
       {
