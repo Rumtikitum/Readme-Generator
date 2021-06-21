@@ -29,11 +29,11 @@ My hope is that this can be used by myself and other professionals who wish to o
 
 ## Contribute
 
-I do encourage anyone to go ahead and contribute to this code. I am certain there are other needs for other individuals that I have yet to think of at this time
+I do encourage anyone to go ahead and contribute to this code. I am certain there are other needs for other individuals that I have yet to think of at this time.
 
 ## Test
 
-Users will just have to clone my repo. The user will also need to download the NPM "inquirer" to take user input. Users may use a text editor that can work with JS and node.
+You will be able to test this application by cloning it and installing npm “inquirer”. You may use most any text editor that can work on JS. Currently I am using VS Code.
 
 ## Contact
 
@@ -43,7 +43,7 @@ Users will just have to clone my repo. The user will also need to download the N
 
 ## Image
 
- ![Image](/assets/Picture.JPG)
+ ![Img](/assets/images/Picture.JPG)
 
 ## License
 
