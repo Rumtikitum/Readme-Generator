@@ -62,14 +62,19 @@ const getInfo = () => {
       },
       {
         type: "input",
+        message: "What year is it that your getting this license?",
+        name: "year"
+      },
+      {
+        type: "input",
         message: "Last but not least, what is your name?",
         name: "name"
       },
     ]);
-    // Receives response from questions
-    //
 };
 
+
+//initiates inquirer and handles error
 getInfo()
   .then (pageREADME => {
     return generate(pageREADME);
