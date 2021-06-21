@@ -5,9 +5,12 @@
 
   // export function to generate entire page
   module.exports = function answers(response) {
-    $template += `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
-    $template += `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
-    $template += `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+    if (response.license === 'MIT') {
+      $template += `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n`;
+    } else if (response.license === 'Apache') {
+      $template += `[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)\n\n`;
+    } else
+      $template += `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n`;
     // Creates the template for the readme
     $template += `### Table of Contents\n- [Title](#Title)\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Test](#test)\n- [Contact](#contact)\n- [Image](#image)\n- [License](#license)\n\n`;    
     $template += `## Title\n\n${response.title}\n\n`;      
