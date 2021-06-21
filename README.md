@@ -13,44 +13,44 @@
 
 ## Title
 
-h
+README Generator
 
 ## Description
 
-h
+This project is aimed to support developers in generating professional READMEs quickly and effectively.
 
 ## Installation
 
-
+This application utilizes the npm “inquirer” as its main installation. This allows us to ask questions and receive user inputs for our specific program.
 
 ## Usage
 
-h
+My hope is that this can be used by myself and other professionals who wish to optimize their days and save precious time with generating README’s. The application was meant to be robust to ensure that (hopefully) the application would meet the potential users needs. 
 
 ## Contribute
 
-no
+I do encourage anyone to go ahead and contribute to this code. I am certain there are other needs for other individuals that I have yet to think of at this time.
 
 ## Test
 
-h
+You will be able to test this application by cloning it and installing npm “inquirer”. You may use most any text editor that can work on JS. Currently I am using VS Code.
 
 ## Contact
 
- ### Github: [github.com/h](https://github.com/h)
+ ### Github: [github.com/Rumtikitum](https://github.com/Rumtikitum)
 
- ### Email: [h](mailto:h?subject=[GitHub])
+ ### Email: [rtauc001@gmail.com](mailto:rtauc001@gmail.com?subject=[GitHub])
 
 ## Image
 
- ![h](h)
+ ![Image](Picture.JPG)
 
 ## License
 
 
       MIT License
 
-      Copyright (c) [h] [h]
+      Copyright (c) [2021] [Richie Tauch]
       
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
