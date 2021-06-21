@@ -15,7 +15,7 @@
     if (response.license == 'APACHE')
       $template += `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n`;
     // Creates the template for the readme
-    $template += `### Table of Contents\n- [Title](#Title)\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Test](#test)\n- [Contact](#contact)\n- [Image](#image)\n- [License](#license)\n\n`;    
+    $template += `### Table of Contents\n- [Title](#Title)\n- [Description](#description)\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contribute](#contribute)\n- [Test](#test)\n- [Contact](#contact)\n- [Image](#image)\n- [License](#license)\n\n`;    
     $template += `## Title\n\n${response.title}\n\n`;      
     $template += `## Description\n\n${response.description}\n\n`;
     $template += `## Installation\n\n${response.installations}\n\n`;
